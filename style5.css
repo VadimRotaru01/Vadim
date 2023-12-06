@@ -1,0 +1,21 @@
+
+    .box1 {
+      padding: 20px;
+      margin: 10px;
+      background-color: #f0f0f0;
+    }
+
+    .box2 {
+      padding: 15px;
+      margin: 10px;
+      background-color: #dcdcdc;
+    }
+
+    img {
+      filter: grayscale(50%); /* Converts the image to 50% grayscale */
+      /* Other filter examples:
+      filter: blur(5px); // Applies a 5px blur effect to the image
+      filter: brightness(150%); // Increases the image brightness by 150%
+      filter: contrast(200%); // Increases the image contrast by 200%
+      */
+    }
