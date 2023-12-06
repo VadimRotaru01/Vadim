@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animation Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex items-center justify-center h-screen">
+  <button id="animateButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out">Animate</button>
+
+  <div id="animatedDiv" class="hidden w-20 h-20 bg-yellow-400 rounded-full absolute"></div>
+
+  <script>
+    const animateButton = document.getElementById('animateButton');
+    const animatedDiv = document.getElementById('animatedDiv');
+
+    animateButton.addEventListener('click', () => {
+      animatedDiv.classList.toggle('hidden');
+      animatedDiv.classList.toggle('animate-bounce');
+    });
+  </script>
+</body>
+</html>
