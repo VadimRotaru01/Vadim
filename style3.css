@@ -1,0 +1,19 @@
+nav ul li a:hover {
+    color: blue;
+  }
+  
+  
+  section p:first-of-type {
+    font-style: italic;
+  }
+  
+  
+  section p::first-letter {
+    font-size: 150%;
+    color: #FF5733;
+  }
+  
+
+  footer p::first-line {
+    text-transform: uppercase;
+  }
